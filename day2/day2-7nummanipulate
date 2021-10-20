@@ -1,0 +1,16 @@
+# to round off a number to nearest number use round( function) 
+
+print(round(26/12))
+print(round(26/15))
+print(round(26/3))
+
+# floor division can also round off the number but it chops the decimal values and considers the initial main value
+
+print(26//12)
+
+# round off to two decimal places
+print(round(8/3 , 2))
+
+# round off to 3 decimal places
+print(round(5.6666 , 3))
+print(round(55/6 , 3))

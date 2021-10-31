@@ -1,0 +1,22 @@
+programming_dictionaries = {"Bug": "An error in a program that prevents it from running as expected.","Function":"A piece of code that you can call over and over again.","Loop":"The action of doing something over and over again."}
+print(programming_dictionaries)
+
+# To make it look more clear :
+
+programming_dictionaries = {
+    "Bug": "An error in a program that prevents it from running as expected.",
+    "Function":"A piece of code that you can call over and over again.",
+    "Loop":"The action of doing something over and over again."
+}
+print(programming_dictionaries)
+
+# To add an element to the already existing dictionary
+
+programming_dictionaries = {
+    "Bug": "An error in a program that prevents it from running as expected.",
+    "Function":"A piece of code that you can call over and over again."
+}
+programming_dictionaries["Loop"] = "The action of doing something over and over again."
+
+print(programming_dictionaries)
+

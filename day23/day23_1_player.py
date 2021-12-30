@@ -11,18 +11,18 @@ class Player(Turtle):
         self.shape("arrow")
         self.color("black")
         self.penup()
-        self. goto(0 , 280)
+        self.go_to_start()
+        self.setheading(90)
 
     def go_up(self):
-        new_y = self.ycor() + 2
-        self.goto(self.xcor(), new_y)
+        self.forward(MOVE_DISTANCE)
 
-    def go_left(self):
-        new_x = self.xcor() - 2
-        self.goto(new_x,self.ycor())
+    def go_to_start(self):
+        self.goto(STARTING_POSITION)
 
-    def go_right(self):
-        new_x = self.xcor() + 2
-        self.goto(new_x,self.ycor())
-    
+    def is_at_finish_line(self):
+        if self.ycor() > FINISH_LINE_Y:
+            return True
+        else:
+            return False
 

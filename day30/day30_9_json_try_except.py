@@ -72,7 +72,7 @@ def save():
             with open("day29_password_file.json" , "w") as password_file:
                 # Saving updated data
                 json.dump(data, password_file, indent=4)
-
+        finally:
             # password_file.write(f"{website} | {email} | {password}\n")
             website_entry.delete(0 , END)
             password_entry.delete(0 , END)

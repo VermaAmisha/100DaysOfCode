@@ -82,14 +82,25 @@ def save():
             password_entry.delete(0 , END)
 
 def find_password():
-    website = website_entry.grt()
-    with open("day29_password_file.json") as password_file:
-        data = json.load(password_file)
-        # print(data)
+    """ A function to find the password for the saved website details"""
+
+    website = website_entry.get()
+    try:
+        with open("day29_password_file.json") as password_file:
+            data = json.load(password_file)
+            # print(data)
+
+    except FileNotFoundError:
+        messagebox.showinfo(title = "Error", message = "No data file found")
+
+    else:
         if website in data:
             email = data[website]["email"]
             password = data[website]["password"]
             messagebox.showinfo(title = website, message = f"Email: {email}\nPassword: {password}")
+
+        else:
+            messagebox.showinfo(title = "Error" , message = f"No details for {website} exists.")
 # ---------------------------- UI SETUP ------------------------------- #
 
 # Create window
@@ -129,10 +140,10 @@ password_entry = Entry(width = 27)
 password_entry.grid(row = 3, column = 1)
 
 # Buttons
-search_button = Button(text = "Search" , command = find_password )
-search_button.grid(row = 3 , column = 2)
+search_button = Button(text = "Search" , width = 13, command = find_password )
+search_button.grid(row = 1 , column = 2)
 
-generate_password_button = Button(text = "Generate Password" , command = generate_password)
+generate_password_button = Button(text = "Generate Password" , width = 14, command = generate_password)
 generate_password_button.grid(row = 3 , column = 2)
 
 add_button = Button(text= "Add" , width = 38 ,command=save)

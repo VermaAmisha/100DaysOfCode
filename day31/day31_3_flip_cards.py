@@ -15,6 +15,7 @@ def next_card():
     
     canvas.itemconfig(card_title , text = "French" , fill = "black")
     canvas.itemconfig(card_word , text = current_card["French"] , fill = "black")
+    canvas.itemconfig(canvas_img , image = card_front_img)
     # time.sleep(3)
     # To flip the card after 3 sec or 3000 milli-sec
     window.after(3000, func = english_card)

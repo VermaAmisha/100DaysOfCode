@@ -1,0 +1,30 @@
+
+body {
+    background-color: #FAEEE7;
+}
+
+hr {
+    background-color: black;
+    border-style: none;
+    border-color: grey;
+    border-width: 5px;
+    height: 2px;
+    width: 30%;
+}
+
+img {
+    height: 100px;
+
+}
+
+h1 {
+    color: #179191;
+}
+
+h2 {
+    color: #179191;
+}
+
+h3 {
+    color: #179191;
+}

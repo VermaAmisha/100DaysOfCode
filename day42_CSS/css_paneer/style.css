@@ -1,0 +1,20 @@
+/***********************TAG SELECTOR**********************/
+
+h1 {
+    color: blueviolet;
+    font-size: 50px;
+}
+
+/* img {
+    background-color: blueviolet;
+} */
+
+/***********************CLASS SELECTORS********************/
+
+.paneer {
+    background-color: rgb(197, 138, 252);
+}
+
+.gajar-halwa {
+    background-color: rgb(244, 252, 133);
+}

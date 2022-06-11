@@ -5,9 +5,9 @@ h1 {
     font-size: 50px;
 }
 
-/* img {
-    background-color: blueviolet;
-} */
+img:hover {
+    background-color: rgb(61, 226, 43);
+}
 
 /***********************CLASS SELECTORS********************/
 
@@ -17,4 +17,10 @@ h1 {
 
 .gajar-halwa {
     background-color: rgb(244, 252, 133);
+}
+
+/***********************ID SELECTORS********************/
+
+#heading {
+    color: rgb(46, 206, 235)
 }

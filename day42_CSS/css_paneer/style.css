@@ -13,10 +13,12 @@ img:hover {
 
 .paneer {
     background-color: rgb(197, 138, 252);
+    border-radius: 50%;
 }
 
 .gajar-halwa {
     background-color: rgb(244, 252, 133);
+    border-radius: 50%;
 }
 
 /***********************ID SELECTORS********************/

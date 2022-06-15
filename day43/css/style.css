@@ -11,3 +11,20 @@ h1 {
 div {
     background-color: #E4F9F5;
 }
+
+.top {
+    background-color: #E4F9F5;
+
+}
+
+.middle {
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+}
+
+.bottom {
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+}

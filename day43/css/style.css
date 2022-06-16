@@ -14,17 +14,25 @@ div {
 
 .top {
     background-color: #E4F9F5;
-
+    width: 200px;
+    height: 200px;
+    border: solid 10px;
+    padding: 20px;
 }
 
 .middle {
     background-color: cadetblue;
     width: 200px;
     height: 200px;
+    border: solid 20px;
+    margin-left: 260px;
 }
 
 .bottom {
     background-color: burlywood;
     width: 200px;
     height: 200px;
+    border: solid 10px;
+    margin-left: 500px;
+    padding: 10px;
 }

@@ -25,7 +25,8 @@ div {
     width: 200px;
     height: 200px;
     border: solid 20px;
-    /* margin-left: 260px; */
+    position: relative;
+    left: 100px;
 }
 
 .bottom {
@@ -35,6 +36,8 @@ div {
     border: solid 10px;
     /* margin-left: 500px; */
     padding: 10px;
+    position: relative;
+    left: 200px;
 }
 
 .pro {

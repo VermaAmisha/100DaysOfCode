@@ -18,6 +18,8 @@ div {
     height: 200px;
     border: solid 10px;
     padding: 20px;
+    /* position: absolute;
+    left: 100px; */
 }
 
 .middle {
@@ -25,8 +27,9 @@ div {
     width: 200px;
     height: 200px;
     border: solid 20px;
-    position: relative;
-    left: 100px;
+    position: absolute;
+    left: 260px;
+    top: 260px;
 }
 
 .bottom {
@@ -36,8 +39,9 @@ div {
     border: solid 10px;
     /* margin-left: 500px; */
     padding: 10px;
-    position: relative;
-    left: 200px;
+    position: absolute;
+    left: 500px;
+    top: 500px;
 }
 
 .pro {

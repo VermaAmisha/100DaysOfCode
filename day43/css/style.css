@@ -12,14 +12,21 @@ div {
     background-color: #E4F9F5;
 }
 
+.container {
+    position: relative;
+    width: 740px;
+    height: 300px;
+    background-color: darkmagenta;
+}
+
 .top {
     background-color: #E4F9F5;
     width: 200px;
     height: 200px;
     border: solid 10px;
     padding: 20px;
-    /* position: absolute;
-    left: 100px; */
+    position: absolute;
+    /* left: 100px; */
 }
 
 .middle {
@@ -29,7 +36,7 @@ div {
     border: solid 20px;
     position: absolute;
     left: 260px;
-    top: 260px;
+    top: 0px;
 }
 
 .bottom {
@@ -41,7 +48,7 @@ div {
     padding: 10px;
     position: absolute;
     left: 500px;
-    top: 500px;
+    top: 0px;
 }
 
 .pro {

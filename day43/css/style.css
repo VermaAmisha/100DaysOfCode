@@ -18,11 +18,35 @@ h2 {
     color:darkcyan;
     font-weight: normal;
     font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 10px;
 }
 
 h3 {
     font-family: 'Courier New', Courier, monospace;
     color:darkseagreen;
+}
+
+.top {
+    background-color: #E4F9F5;
+}
+
+.middle {
+    margin: 100px 0;
+}
+
+/* .bottom {
+
+} */
+
+.p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
 
 div {
@@ -32,7 +56,7 @@ div {
 .top {
     background-color: #E4F9F5;
     position: relative;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .pro {
@@ -46,6 +70,6 @@ div {
 
 .second-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }

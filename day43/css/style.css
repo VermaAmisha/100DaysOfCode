@@ -73,3 +73,34 @@ div {
     left: 250px;
     bottom: 300px;
 }
+
+.my-photo{
+    width: 30%;
+}
+
+.btn {
+    background: #34b2d9;
+    background-image: -webkit-linear-gradient(top, #34b2d9, #159ebd);
+    background-image: -moz-linear-gradient(top, #34b2d9, #159ebd);
+    background-image: -ms-linear-gradient(top, #34b2d9, #159ebd);
+    background-image: -o-linear-gradient(top, #34b2d9, #159ebd);
+    background-image: linear-gradient(to bottom, #34b2d9, #159ebd);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 21px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #0b97c2;
+    background-image: -webkit-linear-gradient(top, #0b97c2, #30b2cf);
+    background-image: -moz-linear-gradient(top, #0b97c2, #30b2cf);
+    background-image: -ms-linear-gradient(top, #0b97c2, #30b2cf);
+    background-image: -o-linear-gradient(top, #0b97c2, #30b2cf);
+    background-image: linear-gradient(to bottom, #0b97c2, #30b2cf);
+    text-decoration: none;
+  }

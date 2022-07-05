@@ -6,3 +6,6 @@ month = now.month
 day_of_week = now.weekday()
 
 print(day_of_week)
+
+date_of_birth = dt.datetime(year=1998 , month=12, day=26 , hour=20 , minute=30)
+print(date_of_birth)
